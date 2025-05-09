@@ -1,4 +1,4 @@
-import Evento from "../models/Eventos.js";
+import Evento from "../models/evento-schema.js";
 
 // const listaEventos = [ 
 //     {"id": "E1","nome": "Super Bowl", "dataEvento": "12-02-2023", "inicioInscricoes": "01-05-2022", "fimInscricoes": "29-07-2022" },
