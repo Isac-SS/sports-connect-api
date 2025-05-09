@@ -1,4 +1,4 @@
-import atletasMd from "../models/Atletas.js";
+import atletasMd from "../models/atleta-schema.js";
 
 export function home(req, res) {
   res.status(200).send("SportsConnect");
