@@ -1,4 +1,4 @@
-import Embarcacoes from '../models/Embarcacoes.js';
+import Embarcacoes from '../models/embarcacao-schema.js';
 
 export async function vessels(req, res) {
     const listaEmbarcacoes = await Embarcacoes.find();
